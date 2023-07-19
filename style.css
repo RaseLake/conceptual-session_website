@@ -1,0 +1,65 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.heading-color{
+    background-color: #ffffff;
+}
+.nav-container {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    /* border: 1px solid green; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    
+    height: 40px;
+    width: 80px;
+    margin-right: 10px;
+
+}
+
+.logo-container p {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.gamer {
+    color: #f643a5;
+}
+
+.nav-items-container{
+    /* border: 1px solid blueviolet; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    
+}
+.nav-items-container a{
+    text-decoration: none;
+}
+
+.nav-items-container .login-btn{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 18px 24px;
+text-align: center; 
+}
+.login-btn .fa-youtube, .login-btn .fa-tiktok{
+margin-left: 20px;
+}
