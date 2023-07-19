@@ -17,4 +17,34 @@
     width: 100%;
     
 }
+
+.bann{
+    flex-direction: column;
+}
+.banner{
+    margin-bottom: 10px;
+
+}
+.background-img{
+    position: static;
+    width: 100%;
+    height: auto;
+}
+
+.bb h2{
+    font-size: 40px;
+}
+.nav-container{
+    order: 1;
+}
+.bann{
+    
+    margin-top: 160px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    order: 2;
+    
+}
+
+
 }
